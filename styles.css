@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  
+}
+/*navigation*/
+.nav-container {
+  height: 66.26px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
+}
+.wrapper {
+  width: 1193.61px ;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  height: 66.26px;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+nav ul {
+  display: flex;
+}
+nav .logo {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-right: 100px;
+}
+.nav-items li a {
+  color: #021718;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.nav-items li:nth-last-of-type(2) {
+  margin: 0 24px;
+}
+
+/* Header */
+
+.header-container {
+  background: #C0ECFA url("assets/bg-shape.svg");
+  background-repeat: no-repeat;
+  background-position: 888px;
+  background-size: contain;
+  height: calc(100vh - 66.26px);
+  display: flex;
+  align-items: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  color: #021718;
+  margin-bottom: 24px;
+}
+
+header p {
+  font-size: 24px;
+  line-height: 42px;
+  color: #021718;
+  width: 418px;
+
+  margin-bottom: 48px;
+}
+
+header a {
+  color: #fffffa;
+  font-size: 24px;
+  text-decoration: none;
+
+  background:#005AAC;
+  border-radius: 8px;
+  padding: 12px 48px;
+  display: inline-block;
+  transition: 300ms;
+}
+
+header a:hover {
+  transform: translateY(-8px);
+}
+
+/* Hero image */
+
+header .hero-image {
+  position: relative;
+}
+
+header .hero-image img {
+  transition: 300ms;
+  position: relative;
+  z-index: 100;
+}
+
+header .hero-image img:hover {
+  transform: rotate(-6deg);
+}
+
+header .hero-image .jheave1 {
+  position: absolute;
+  width: 366.23px;
+  height: 366.23px;
+  left: 947.3px;
+  top: 245.07px;
+
+  transform: rotate(-6deg);
+}
